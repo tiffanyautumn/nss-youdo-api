@@ -1,0 +1,341 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Tiffany",
+      "email": "t@t.com",
+      "isAdmin": false,
+      "titleId": 1
+    },
+    {
+      "id": 2,
+      "name": "Rachel",
+      "email": "r@r.com",
+      "isAdmin": false,
+      "titleId": 1
+    },
+    {
+      "id": 3,
+      "name": "Sammi",
+      "email": "s@s.com",
+      "isAdmin": false,
+      "titleId": 1
+    },
+    {
+      "id": 4,
+      "name": "Micheal",
+      "email": "m@m.com",
+      "isAdmin": false,
+      "titleId": 2
+    },
+    {
+      "id": 5,
+      "name": "Hazel",
+      "email": "h@h.com",
+      "isAdmin": true,
+      "titleId": 1
+    }
+  ],
+  "titles": [
+    {
+      "id": 1,
+      "name": "bride"
+    },
+    {
+      "id": 2,
+      "name": "groom"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "description": "get engaged",
+      "timeFrame": 12
+    },
+    {
+      "id": 2,
+      "description": "set a budget",
+      "timeFrame": 12
+    },
+    {
+      "id": 3,
+      "description": "Book a venue",
+      "timeFrame": 12
+    },
+    {
+      "id": 4,
+      "description": "pick a theme",
+      "timeFrame": 12
+    },
+    {
+      "id": 5,
+      "description": "book a photographer and videographer",
+      "timeFrame": 12
+    },
+    {
+      "id": 6,
+      "description": "have engagement photos taken",
+      "timeFrame": 12
+    },
+    {
+      "id": 7,
+      "description": "buy a wedding dress",
+      "timeFrame": 12
+    },
+    {
+      "id": 8,
+      "description": "book your wedding wedding planner, caterer, and dessert supplier",
+      "timeFrame": 12
+    },
+    {
+      "id": 9,
+      "description": "finalize your guest list",
+      "timeFrame": 12
+    },
+    {
+      "id": 10,
+      "description": "send save the dates",
+      "timeFrame": 12
+    },
+    {
+      "id": 11,
+      "description": "shop for your bridesmaids dresses",
+      "timeFrame": 12
+    },
+    {
+      "id": 12,
+      "description": "book your dj or wedding band",
+      "timeFrame": 12
+    },
+    {
+      "id": 13,
+      "description": "create a song list ",
+      "timeFrame": 12
+    },
+    {
+      "id": 14,
+      "description": "shop for wedding bands",
+      "timeFrame": 12
+    },
+    {
+      "id": 15,
+      "description": "groom and groomsmen tuxedo fitting",
+      "timeFrame": 12
+    },
+    {
+      "id": 16,
+      "description": "design and order your wedding invitations",
+      "timeFrame": 12
+    },
+    {
+      "id": 17,
+      "description": "book your hair and makeup artist",
+      "timeFrame": 12
+    },
+    {
+      "id": 18,
+      "description": "finalize honeymoon plans",
+      "timeFrame": 12
+    },
+    {
+      "id": 19,
+      "description": "mail out wedding invitations",
+      "timeFrame": 12
+    },
+    {
+      "id": 20,
+      "description": "select and order wedding cake",
+      "timeFrame": 12
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "name": "photographer"
+    },
+    {
+      "id": 2,
+      "name": "videographer"
+    },
+    {
+      "id": 3,
+      "name": "wedding officiant"
+    },
+    {
+      "id": 4,
+      "name": "wedding planner"
+    },
+    {
+      "id": 5,
+      "name": "dj"
+    },
+    {
+      "id": 6,
+      "name": "hair stylist"
+    },
+    {
+      "id": 7,
+      "name": "makeup artist"
+    },
+    {
+      "id": 8,
+      "name": "florist"
+    },
+    {
+      "id": 9,
+      "name": "baker"
+    },
+    {
+      "id": 10,
+      "name": "caterer"
+    },
+    {
+      "id": 11,
+      "name": "bartender"
+    },
+    {
+      "id": 12,
+      "name": "rental company"
+    },
+    {
+      "id": 13,
+      "name": "wedding band"
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "name": "bridesmaid"
+    },
+    {
+      "id": 2,
+      "name": "groomsman"
+    }
+  ],
+  "weddings": [
+    {
+      "id": 1,
+      "userId": 1,
+      "weddingDate": "07-10-2024"
+    }
+  ],
+  "weddingVendors": [
+    {
+      "id": 1,
+      "vendorId": 1,
+      "weddingId": 1
+    }
+  ],
+  "vendors": [
+    {
+      "id": 1,
+      "name": "Good Day Photography",
+      "jobId": 1,
+      "phoneNum": "615-792-0000"
+    }
+  ],
+  "venues": [
+    {
+      "id": 1,
+      "name": "Smith Farm",
+      "address": "100 Wedding lane",
+      "phoneNum": "615-300-4750",
+      "weddingId": 1
+    }
+  ],
+  "weddingParty": [
+    {
+      "id": 1,
+      "partyId": 1,
+      "weddingId": 1
+    },
+    {
+      "id": 2,
+      "partyId": 2,
+      "weddingId": 1
+    },
+    {
+      "id": 3,
+      "partyId": 3,
+      "weddingId": 1
+    }
+  ],
+  "party": [
+    {
+      "id": 1,
+      "name": "Rachel Moss",
+      "roleId": 1
+    },
+    {
+      "id": 2,
+      "name": "Samantha Smotherman",
+      "roleId": 1
+    },
+    {
+      "id": 3,
+      "name": "Jasper Ohde",
+      "roleId": 2
+    }
+  ],
+  "partners": [
+    {
+      "id": 1,
+      "name": "Dustin",
+      "titleId": 2,
+      "weddingId": 1
+    }
+  ],
+  "budgets": [
+    {
+      "id": 1,
+      "amount": 1000,
+      "userId": 1
+    }
+  ],
+  "budgetItems": [
+    {
+      "id": 1,
+      "itemId": 1,
+      "budgetId": 1
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "description": "wedding dress",
+      "amount": 2000
+    }
+  ],
+  "userTasks": [
+    {
+      "id": 1,
+      "userId": 1,
+      "taskId": 1
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "taskId": 3
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "taskId": 1
+    },
+    {
+      "userId": 1,
+      "taskId": 2,
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "taskId": 2,
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "taskId": 1,
+      "id": 6
+    }
+  ]
+}
