@@ -4,148 +4,286 @@
       "id": 1,
       "name": "Tiffany",
       "email": "t@t.com",
-      "isAdmin": false,
-      "titleId": 1
+      "isAdmin": false
     },
     {
       "id": 2,
       "name": "Rachel",
       "email": "r@r.com",
-      "isAdmin": false,
-      "titleId": 1
+      "isAdmin": false
     },
     {
       "id": 3,
       "name": "Sammi",
       "email": "s@s.com",
-      "isAdmin": false,
-      "titleId": 1
+      "isAdmin": false
     },
     {
       "id": 4,
       "name": "Micheal",
       "email": "m@m.com",
-      "isAdmin": false,
-      "titleId": 2
+      "isAdmin": false
     },
     {
       "id": 5,
       "name": "Hazel",
       "email": "h@h.com",
-      "isAdmin": true,
-      "titleId": 1
+      "isAdmin": true
+    },
+    {
+      "email": "i@i.com",
+      "name": "ian",
+      "id": 6,
+      "isAdmin": false
+    },
+    {
+      "email": "j@j.com",
+      "name": "Jane",
+      "id": 7,
+      "isAdmin": false
+    },
+    {
+      "email": "o@o.com",
+      "name": "Ophelia",
+      "id": 8
     }
   ],
   "titles": [
     {
       "id": 1,
-      "name": "bride"
+      "name": "Bride"
     },
     {
       "id": 2,
-      "name": "groom"
+      "name": "Groom"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "description": "Venue"
+    },
+    {
+      "id": 2,
+      "description": "Budget"
+    },
+    {
+      "id": 3,
+      "description": "Bridal Party"
+    },
+    {
+      "id": 4,
+      "description": "Vendors"
+    },
+    {
+      "id": 5,
+      "description": "Decorations"
+    },
+    {
+      "id": 6,
+      "description": "Guests"
+    },
+    {
+      "id": 7,
+      "description": "Outfit"
+    },
+    {
+      "id": 8,
+      "description": "Music"
+    },
+    {
+      "id": 9,
+      "description": "Beauty"
+    },
+    {
+      "id": 10,
+      "description": "Invitations"
+    },
+    {
+      "id": 11,
+      "description": "Couple"
     }
   ],
   "tasks": [
     {
-      "id": 1,
-      "description": "get engaged",
-      "timeFrame": 12
+      "description": "get engaged to a good person",
+      "timeFrame": 12,
+      "categoryId": 11,
+      "id": 1
     },
     {
+      "description": "set a budget for the wedding",
+      "timeFrame": 13,
       "id": 2,
-      "description": "set a budget",
-      "timeFrame": 12
+      "categoryId": 2
     },
     {
       "id": 3,
       "description": "Book a venue",
-      "timeFrame": 12
+      "timeFrame": 12,
+      "categoryId": 1
     },
     {
       "id": 4,
       "description": "pick a theme",
-      "timeFrame": 12
+      "timeFrame": 12,
+      "categoryId": 5
     },
     {
       "id": 5,
       "description": "book a photographer and videographer",
-      "timeFrame": 12
+      "timeFrame": 12,
+      "categoryId": 4
     },
     {
       "id": 6,
       "description": "have engagement photos taken",
-      "timeFrame": 12
+      "timeFrame": 12,
+      "categoryId": 4
     },
     {
       "id": 7,
       "description": "buy a wedding dress",
-      "timeFrame": 12
+      "timeFrame": 12,
+      "categoryId": 7
     },
     {
       "id": 8,
       "description": "book your wedding wedding planner, caterer, and dessert supplier",
-      "timeFrame": 12
+      "timeFrame": 12,
+      "categoryId": 4
     },
     {
-      "id": 9,
       "description": "finalize your guest list",
-      "timeFrame": 12
+      "timeFrame": 10,
+      "id": 9,
+      "categoryId": 6
     },
     {
-      "id": 10,
       "description": "send save the dates",
-      "timeFrame": 12
+      "timeFrame": 4,
+      "id": 10,
+      "categoryId": 10
     },
     {
-      "id": 11,
       "description": "shop for your bridesmaids dresses",
-      "timeFrame": 12
+      "timeFrame": 8,
+      "id": 11,
+      "categoryId": 3
     },
     {
       "id": 12,
       "description": "book your dj or wedding band",
-      "timeFrame": 12
+      "timeFrame": 12,
+      "categoryId": 4
     },
     {
-      "id": 13,
       "description": "create a song list ",
-      "timeFrame": 12
+      "timeFrame": 4,
+      "id": 13,
+      "categoryId": 8
     },
     {
       "id": 14,
       "description": "shop for wedding bands",
-      "timeFrame": 12
+      "timeFrame": 12,
+      "categoryId": 11
     },
     {
       "id": 15,
       "description": "groom and groomsmen tuxedo fitting",
-      "timeFrame": 12
+      "timeFrame": 12,
+      "categoryId": 7
     },
     {
       "id": 16,
       "description": "design and order your wedding invitations",
-      "timeFrame": 12
+      "timeFrame": 12,
+      "categoryId": 10
     },
     {
       "id": 17,
       "description": "book your hair and makeup artist",
-      "timeFrame": 12
-    },
-    {
-      "id": 18,
-      "description": "finalize honeymoon plans",
-      "timeFrame": 12
+      "timeFrame": 12,
+      "categoryId": 4
     },
     {
       "id": 19,
       "description": "mail out wedding invitations",
-      "timeFrame": 12
+      "timeFrame": 12,
+      "categoryId": 10
     },
     {
-      "id": 20,
-      "description": "select and order wedding cake",
-      "timeFrame": 12
+      "description": "Choose a first dance song",
+      "timeFrame": 3,
+      "categoryId": 8,
+      "id": 20
+    },
+    {
+      "description": "Choose a Reception Site",
+      "timeFrame": 12,
+      "categoryId": 1,
+      "id": 21
+    },
+    {
+      "description": "Decide on a Budget",
+      "timeFrame": 12,
+      "categoryId": 2,
+      "id": 22
+    },
+    {
+      "description": "Choose your Bridesmaids ",
+      "timeFrame": 12,
+      "categoryId": 3,
+      "id": 23
+    },
+    {
+      "description": "Choose your Groomsmen",
+      "timeFrame": 12,
+      "categoryId": 3,
+      "id": 24
+    },
+    {
+      "description": "Create bridesmaids proposal boxes ",
+      "timeFrame": 10,
+      "categoryId": 3,
+      "id": 25
+    },
+    {
+      "description": "Create groomsmen proposal boxes ",
+      "timeFrame": 10,
+      "categoryId": 3,
+      "id": 26
+    },
+    {
+      "description": "Hire a wedding planner",
+      "timeFrame": 12,
+      "categoryId": 4,
+      "id": 27
+    },
+    {
+      "description": "Decide on a theme/vibe",
+      "timeFrame": 11,
+      "categoryId": 5,
+      "id": 28
+    },
+    {
+      "description": "Create a guest list ",
+      "timeFrame": 10,
+      "categoryId": 6,
+      "id": 29
+    },
+    {
+      "description": "Get any waxing and threading done",
+      "timeFrame": 0,
+      "categoryId": 9,
+      "id": 30
+    },
+    {
+      "description": "Pick Flowers with Florist",
+      "timeFrame": 6,
+      "categoryId": 5,
+      "id": 31
     }
   ],
   "jobs": [
@@ -215,23 +353,137 @@
   "weddings": [
     {
       "id": 1,
-      "userId": 1,
-      "weddingDate": "07-10-2024"
+      "userId": 1
+    },
+    {
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "userId": 3,
+      "id": 3
+    },
+    {
+      "userId": 6,
+      "id": 4
+    },
+    {
+      "userId": 7,
+      "id": 5
+    },
+    {
+      "userId": 4,
+      "id": 6
+    }
+  ],
+  "weddingDates": [
+    {
+      "date": "2022-09-10",
+      "weddingId": 1,
+      "id": 1
+    },
+    {
+      "date": "2022-09-10",
+      "weddingId": 5,
+      "id": 2
+    },
+    {
+      "date": "2022-09-09",
+      "weddingId": 5,
+      "id": 3
+    },
+    {
+      "date": "2022-09-09",
+      "weddingId": 5,
+      "id": 4
+    },
+    {
+      "date": "2022-08-17",
+      "weddingId": 2,
+      "id": 5
+    },
+    {
+      "date": "2022-08-25",
+      "weddingId": 4,
+      "id": 6
+    },
+    {
+      "date": "2022-08-18",
+      "weddingId": 6,
+      "id": 7
     }
   ],
   "weddingVendors": [
     {
-      "id": 1,
-      "vendorId": 1,
-      "weddingId": 1
+      "vendorId": 2,
+      "weddingId": 2,
+      "id": 2
+    },
+    {
+      "vendorId": 5,
+      "weddingId": 3,
+      "id": 5
+    },
+    {
+      "vendorId": 6,
+      "weddingId": 1,
+      "id": 6
+    },
+    {
+      "vendorId": 9,
+      "weddingId": 2,
+      "id": 9
+    },
+    {
+      "vendorId": 10,
+      "weddingId": 1,
+      "id": 10
     }
   ],
   "vendors": [
     {
-      "id": 1,
+      "name": "Bethany",
+      "jobId": 1,
+      "phoneNum": "615-792-1309",
+      "id": 2
+    },
+    {
+      "name": "kc",
+      "jobId": 13,
+      "phoneNum": "661",
+      "id": 5
+    },
+    {
       "name": "Good Day Photography",
       "jobId": 1,
-      "phoneNum": "615-792-0000"
+      "phoneNum": "615-792-1309",
+      "id": 6
+    },
+    {
+      "name": "Vision in White",
+      "jobId": 4,
+      "phoneNum": "615-769-1039",
+      "id": 9
+    },
+    {
+      "name": "Amber Willis",
+      "jobId": 4,
+      "phoneNum": "615-762-9468",
+      "id": 10
+    }
+  ],
+  "sites": [
+    {
+      "id": 1,
+      "name": "reception site"
+    },
+    {
+      "id": 2,
+      "name": "rehearsal dinner site"
+    },
+    {
+      "id": 3,
+      "name": "ceremony site"
     }
   ],
   "venues": [
@@ -240,102 +492,527 @@
       "name": "Smith Farm",
       "address": "100 Wedding lane",
       "phoneNum": "615-300-4750",
+      "siteId": 3
+    },
+    {
+      "name": "Owen Farm",
+      "address": "100 Chapmansboro Rd",
+      "phoneNum": "615-792-1000",
+      "siteId": 3,
+      "id": 2
+    },
+    {
+      "name": "Owen Farm",
+      "address": "1313 Chapmansboro Rd",
+      "phoneNum": "615-792-1309",
+      "siteId": 3,
+      "id": 3
+    },
+    {
+      "name": "Smith Farm",
+      "address": "100 wedding Lane",
+      "phoneNum": "615-800-9000",
+      "siteId": 3,
+      "id": 4
+    },
+    {
+      "name": "Tailgate Brewery",
+      "siteId": 3,
+      "phoneNum": "615-564-7895",
+      "address": "100 Beer Ave",
+      "id": 6
+    },
+    {
+      "name": "Tailgate Brewery",
+      "siteId": 1,
+      "phoneNum": "(615) 457-1424",
+      "address": "7300 Charlotte Pike, Nashville, TN 37209",
+      "id": 8
+    }
+  ],
+  "weddingVenues": [
+    {
+      "id": 1,
+      "venueId": 1,
       "weddingId": 1
+    },
+    {
+      "id": 2,
+      "venueId": 2,
+      "weddingId": 2
+    },
+    {
+      "id": 3,
+      "venueId": 3,
+      "weddingId": 3
+    },
+    {
+      "id": 4,
+      "venueId": 4,
+      "weddingId": 4
+    },
+    {
+      "weddingId": 5,
+      "venueId": 6,
+      "id": 6
+    },
+    {
+      "weddingId": 1,
+      "venueId": 8,
+      "id": 8
     }
   ],
   "weddingParty": [
     {
       "id": 1,
-      "partyId": 1,
-      "weddingId": 1
-    },
-    {
-      "id": 2,
-      "partyId": 2,
+      "memberId": 1,
       "weddingId": 1
     },
     {
       "id": 3,
-      "partyId": 3,
+      "memberId": 3,
       "weddingId": 1
+    },
+    {
+      "memberId": 6,
+      "weddingId": 2,
+      "id": 6
+    },
+    {
+      "memberId": 7,
+      "weddingId": 2,
+      "id": 7
+    },
+    {
+      "memberId": 9,
+      "weddingId": 1,
+      "id": 9
+    },
+    {
+      "memberId": 11,
+      "weddingId": 3,
+      "id": 11
+    },
+    {
+      "memberId": 12,
+      "weddingId": 3,
+      "id": 12
+    },
+    {
+      "memberId": 13,
+      "weddingId": 1,
+      "id": 13
+    },
+    {
+      "memberId": 14,
+      "weddingId": 2,
+      "id": 14
+    },
+    {
+      "memberId": 15,
+      "weddingId": 2,
+      "id": 15
+    },
+    {
+      "memberId": 16,
+      "weddingId": 1,
+      "id": 16
+    },
+    {
+      "memberId": 17,
+      "weddingId": 1,
+      "id": 17
     }
   ],
-  "party": [
+  "members": [
     {
       "id": 1,
       "name": "Rachel Moss",
       "roleId": 1
     },
     {
-      "id": 2,
-      "name": "Samantha Smotherman",
-      "roleId": 1
-    },
-    {
       "id": 3,
       "name": "Jasper Ohde",
       "roleId": 2
+    },
+    {
+      "name": "Tiffany",
+      "roleId": 1,
+      "id": 6
+    },
+    {
+      "name": "Dustin",
+      "roleId": 2,
+      "id": 7
+    },
+    {
+      "name": "Michael Deitz",
+      "roleId": 2,
+      "id": 9
+    },
+    {
+      "name": "Tiffany",
+      "roleId": 1,
+      "id": 11
+    },
+    {
+      "name": "Noah",
+      "roleId": 2,
+      "id": 12
+    },
+    {
+      "name": "Angelina Hunter",
+      "roleId": 1,
+      "id": 13
+    },
+    {
+      "name": "Sammi Drury",
+      "roleId": 1,
+      "id": 14
+    },
+    {
+      "name": "Jake",
+      "roleId": 2,
+      "id": 15
+    },
+    {
+      "name": "Samantha ",
+      "roleId": 1,
+      "id": 16
+    },
+    {
+      "name": "Drew",
+      "roleId": 2,
+      "id": 17
     }
   ],
-  "partners": [
+  "couples": [
     {
       "id": 1,
-      "name": "Dustin",
+      "weddingId": 1,
+      "loverId": 1
+    },
+    {
+      "id": 2,
+      "weddingId": 1,
+      "loverId": 5
+    },
+    {
+      "weddingId": 5,
+      "loverId": 6,
+      "id": 3
+    },
+    {
+      "weddingId": 5,
+      "loverId": 7,
+      "id": 4
+    },
+    {
+      "weddingId": 2,
+      "loverId": 2,
+      "id": 5
+    },
+    {
+      "weddingId": 2,
+      "loverId": 8,
+      "id": 6
+    },
+    {
+      "weddingId": 3,
+      "loverId": 3,
+      "id": 7
+    },
+    {
+      "weddingId": 3,
+      "loverId": 9,
+      "id": 8
+    },
+    {
+      "weddingId": 4,
+      "loverId": 4,
+      "id": 9
+    },
+    {
+      "weddingId": 4,
+      "loverId": 10,
+      "id": 10
+    },
+    {
+      "weddingId": 6,
+      "loverId": 11,
+      "id": 11
+    },
+    {
+      "weddingId": 6,
+      "loverId": 12,
+      "id": 12
+    }
+  ],
+  "lovers": [
+    {
+      "id": 1,
+      "name": "Colt",
+      "titleId": 2
+    },
+    {
+      "name": "Lucas",
       "titleId": 2,
-      "weddingId": 1
+      "id": 2
+    },
+    {
+      "name": "Wesley Smotherman",
+      "titleId": 2,
+      "id": 3
+    },
+    {
+      "name": "Kristen",
+      "titleId": 1,
+      "id": 4
+    },
+    {
+      "name": "Tiffany",
+      "titleId": 1,
+      "id": 5
+    },
+    {
+      "name": "Jane",
+      "titleId": 1,
+      "id": 6
+    },
+    {
+      "name": "John",
+      "titleId": 2,
+      "id": 7
+    },
+    {
+      "name": "Rachel",
+      "titleId": 1,
+      "id": 8
+    },
+    {
+      "name": "Samantha ",
+      "titleId": 1,
+      "id": 9
+    },
+    {
+      "name": "Ian",
+      "titleId": 2,
+      "id": 10
+    },
+    {
+      "name": "Beth",
+      "titleId": 1,
+      "id": 11
+    },
+    {
+      "name": "Michael",
+      "titleId": 2,
+      "id": 12
     }
   ],
   "budgets": [
     {
-      "id": 1,
-      "amount": 1000,
-      "userId": 1
+      "amount": 13000,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "amount": 15000,
+      "userId": 3,
+      "id": 2
+    },
+    {
+      "amount": 16000,
+      "userId": 6,
+      "id": 3
+    },
+    {
+      "amount": 20000,
+      "userId": 2,
+      "id": 4
+    },
+    {
+      "amount": 15000,
+      "userId": 7,
+      "id": 5
     }
   ],
   "budgetItems": [
     {
-      "id": 1,
-      "itemId": 1,
-      "budgetId": 1
+      "id": 2,
+      "itemId": 2,
+      "budgetId": 2
+    },
+    {
+      "budgetId": 2,
+      "itemId": 3,
+      "id": 3
+    },
+    {
+      "budgetId": 2,
+      "itemId": 4,
+      "id": 4
+    },
+    {
+      "budgetId": 1,
+      "itemId": 6,
+      "id": 6
+    },
+    {
+      "budgetId": 4,
+      "itemId": 8,
+      "id": 8
+    },
+    {
+      "budgetId": 4,
+      "itemId": 10,
+      "id": 10
+    },
+    {
+      "budgetId": 1,
+      "itemId": 11,
+      "id": 11
+    },
+    {
+      "budgetId": 1,
+      "itemId": 12,
+      "id": 12
+    },
+    {
+      "budgetId": 1,
+      "itemId": 13,
+      "id": 13
     }
   ],
   "items": [
     {
-      "id": 1,
+      "id": 2,
       "description": "wedding dress",
-      "amount": 2000
+      "amount": 1500
+    },
+    {
+      "description": "Flowers",
+      "amount": 2000,
+      "id": 3
+    },
+    {
+      "description": "dj",
+      "amount": 1200,
+      "id": 4
+    },
+    {
+      "description": "Wedding Band",
+      "amount": 400,
+      "id": 6
+    },
+    {
+      "description": "Wedding Dress",
+      "amount": 2000,
+      "id": 8
+    },
+    {
+      "description": "dj",
+      "amount": 500,
+      "id": 10
+    },
+    {
+      "description": "Flowers",
+      "amount": 2000,
+      "id": 11
+    },
+    {
+      "description": "Food",
+      "amount": 500,
+      "id": 12
+    },
+    {
+      "description": "DJ",
+      "amount": 1000,
+      "id": 13
     }
   ],
   "userTasks": [
     {
-      "id": 1,
       "userId": 1,
-      "taskId": 1
+      "taskId": 10,
+      "id": 11
     },
     {
-      "id": 2,
+      "userId": 1,
+      "taskId": 13,
+      "id": 17
+    },
+    {
+      "userId": 3,
+      "taskId": 6,
+      "id": 23
+    },
+    {
+      "userId": 3,
+      "taskId": 3,
+      "id": 24
+    },
+    {
       "userId": 2,
-      "taskId": 3
+      "taskId": 4,
+      "id": 28
     },
     {
-      "id": 3,
+      "userId": 5,
+      "taskId": 6,
+      "id": 29
+    },
+    {
+      "userId": 5,
+      "taskId": 5,
+      "id": 30
+    },
+    {
+      "userId": 5,
+      "taskId": 19,
+      "id": 31
+    },
+    {
+      "userId": 1,
+      "taskId": 11,
+      "id": 32
+    },
+    {
       "userId": 2,
-      "taskId": 1
+      "taskId": 21,
+      "id": 33
     },
     {
-      "userId": 1,
-      "taskId": 2,
-      "id": 4
+      "userId": 2,
+      "taskId": 11,
+      "id": 34
     },
     {
-      "userId": 1,
-      "taskId": 2,
-      "id": 5
-    },
-    {
-      "userId": 1,
+      "userId": 2,
       "taskId": 1,
-      "id": 6
+      "id": 35
+    },
+    {
+      "userId": 2,
+      "taskId": 2,
+      "id": 36
+    },
+    {
+      "userId": 2,
+      "taskId": 3,
+      "id": 37
+    }
+  ],
+  "hiddenTasks": [
+    {
+      "userId": 7,
+      "taskId": 1,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "taskId": 12,
+      "id": 2
     }
   ]
 }
